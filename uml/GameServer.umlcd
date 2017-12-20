@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jbFegN-HEeeFbsQhSaqEMA">
+  <modelElement href="GameServer.uml#_jZ-rQN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wzXuQN-HEeeFbsQhSaqEMA" targetItem="_wzdN0N-HEeeFbsQhSaqEMA" sourceItem="_wy9ekN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wzZjcN-HEeeFbsQhSaqEMA" targetItem="_wzdN5t-HEeeFbsQhSaqEMA" sourceItem="_wzY8YN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wzb_sN-HEeeFbsQhSaqEMA" sourceAnchor="151.0,0.0" targetAnchor="245.0,49.0" target="_3E26cN-HEeeFbsQhSaqEMA" source="_wzdN0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9aM49-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34SigN-HEeeFbsQhSaqEMA" sourceY="-266" targetX="-2202" targetY="-215"/>
+    <bendpoints xmi:id="_34Sigd-HEeeFbsQhSaqEMA" sourceX="2247" sourceY="-266" targetX="45" targetY="-215"/>
+    <bendpoints xmi:id="_34Sigt-HEeeFbsQhSaqEMA" sourceX="2247" sourceY="-51" targetX="45"/>
+    <stereotypes xmi:id="_wzb_sd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9aM5d-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wzb_st-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wKhQN-HEeeFbsQhSaqEMA" position="-83.0,0.9999999999997726"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wzb_s9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9aM5N-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wIsEt-HEeeFbsQhSaqEMA" position="-16.0,-73.85714285714286"/>
+      <visibility xmi:id="_wzb_tN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzb_td-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wzb_tt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="receiverStubs" navigable="true">
+      <modelElement href="GameServer.uml#_k6W44t-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wLvYN-HEeeFbsQhSaqEMA" position="46.999999999999545,-70.66666666666646"/>
+      <visibility xmi:id="_wzb_t9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzb_uN-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wzcmwN-HEeeFbsQhSaqEMA" source="_wzdN0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9aM5t-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_wzcmwd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9az8N-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wzcmwt-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_wzcmw9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9aM59-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzcmxN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzcmxd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wzcmxt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="GameServer.uml#_k6Xf8d-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzcmx9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzcmyN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w1QkoN-HEeeFbsQhSaqEMA" targetItem="_w19IN9-HEeeFbsQhSaqEMA" sourceItem="_w0kBEN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_w1vs0N-HEeeFbsQhSaqEMA" sourceAnchor="181.0,0.0" targetAnchor="161.0,138.0" dashed="true" superClass="_w19IN9-HEeeFbsQhSaqEMA" subClass="_wzdN0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k0dFMd-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34Sig9-HEeeFbsQhSaqEMA" sourceY="-48" targetX="-1183" targetY="4"/>
+    <bendpoints xmi:id="_34SihN-HEeeFbsQhSaqEMA" sourceX="1183" sourceY="-48" targetY="4"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w11MYN-HEeeFbsQhSaqEMA" sourceAnchor="0.0,21.0" targetAnchor="347.0,112.0" target="_w19IN9-HEeeFbsQhSaqEMA" source="_3E26cN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S0N-HEeeFbsQhSaqEMA"/>
+    <nameVisual xmi:id="_w18hIN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wNkkN-HEeeFbsQhSaqEMA" position="3.2903225806451246,-17.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_w18hId-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="iReceiverStubs" navigable="true">
+      <modelElement href="GameServer.uml#_klO9cN-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wM9gN-HEeeFbsQhSaqEMA" position="-160.14285714285688,-43.0"/>
+      <visibility xmi:id="_w19IMN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w18hJ9-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w18hIt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k88S0d-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wNkkd-HEeeFbsQhSaqEMA" position="88.41935483870975,-42.99999999999986"/>
+      <visibility xmi:id="_w19IMt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IMd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w11zcN-HEeeFbsQhSaqEMA" source="_w19IN9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9V7cN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_w18hJt-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9V7ct-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w18hI9-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_w18hJN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9V7cd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19INN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IM9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w18hJd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="uUID" navigable="true">
+      <modelElement href="GameServer.uml#_klOWYd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19INt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19INd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w16r8d-HEeeFbsQhSaqEMA" targetItem="_w19IQt-HEeeFbsQhSaqEMA" sourceItem="_w16r8N-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w17TAd-HEeeFbsQhSaqEMA" targetItem="_w19IT9-HEeeFbsQhSaqEMA" sourceItem="_w17TAN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w176EN-HEeeFbsQhSaqEMA" targetItem="_w19IV9-HEeeFbsQhSaqEMA" sourceItem="_w17TAt-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_w3IM4N-HEeeFbsQhSaqEMA" sourceAnchor="164.0,0.0" targetAnchor="181.0,250.0" superClass="_wzdN0N-HEeeFbsQhSaqEMA" subClass="_w32loN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k2Om0N-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w3ziUN-HEeeFbsQhSaqEMA" targetItem="_w32loN-HEeeFbsQhSaqEMA" sourceItem="_w3hOcN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w5bS8N-HEeeFbsQhSaqEMA" sourceAnchor="251.0,270.0" targetAnchor="174.0,138.0" target="_w19IN9-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k94uAN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34Sihd-HEeeFbsQhSaqEMA" sourceY="60" targetX="-338" targetY="641"/>
+    <bendpoints xmi:id="_34Siht-HEeeFbsQhSaqEMA" sourceX="338" sourceY="60" targetY="641"/>
+    <stereotypes xmi:id="_w6jUU9-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k94uAt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w6jUUN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb7jEN-HEeeFbsQhSaqEMA" position="-125.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_w6jUUd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k94uAd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb68Bt-HEeeFbsQhSaqEMA" position="6.0,5.0"/>
+      <visibility xmi:id="_w8WEEd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w8WEEN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w6jUUt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="chatRooms" navigable="true">
+      <modelElement href="GameServer.uml#_k78NQ9-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb7jEd-HEeeFbsQhSaqEMA" position="2.0,19.0"/>
+      <visibility xmi:id="_w8WEE9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w8WEEt-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w6b_kN-HEeeFbsQhSaqEMA" targetItem="_w9bCIN-HEeeFbsQhSaqEMA" sourceItem="_w6H2gN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w6jUVN-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k94uA9-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_w8WrIt-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k95VEN-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w8WEFd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_w8WrIN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k94uBN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w8X5Qd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w8X5QN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w8WrId-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="GameServer.uml#_k79bY9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w8X5Q9-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_w8X5Qt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w7wOMN-HEeeFbsQhSaqEMA" targetItem="_w9bCUN-HEeeFbsQhSaqEMA" sourceItem="_w7hksN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w75YIN-HEeeFbsQhSaqEMA" targetItem="_w9bCZN-HEeeFbsQhSaqEMA" sourceItem="_w7z4kN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8As4N-HEeeFbsQhSaqEMA" targetItem="_w9bCeN-HEeeFbsQhSaqEMA" sourceItem="_w7-QoN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8JPwN-HEeeFbsQhSaqEMA" targetItem="_w9bCgN-HEeeFbsQhSaqEMA" sourceItem="_w8FlYN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8RLkN-HEeeFbsQhSaqEMA" targetItem="_w9bCkd-HEeeFbsQhSaqEMA" sourceItem="_w8OIQN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8dY0N-HEeeFbsQhSaqEMA" targetItem="_xCfvYN-HEeeFbsQhSaqEMA" sourceItem="_w8YgUN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_w8hqQN-HEeeFbsQhSaqEMA" sourceAnchor="238.0,0.0" targetAnchor="128.0,155.0" dashed="true" superClass="_xCfvYN-HEeeFbsQhSaqEMA" subClass="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k2dQUN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TJkN-HEeeFbsQhSaqEMA" sourceY="-19" targetX="273" targetY="93"/>
+    <bendpoints xmi:id="_34TJkd-HEeeFbsQhSaqEMA" sourceX="-273" sourceY="-19" targetY="93"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w8lUoN-HEeeFbsQhSaqEMA" sourceAnchor="251.0,0.0" targetAnchor="255.0,91.0" target="_xCfvYN-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k95VFN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34Sih9-HEeeFbsQhSaqEMA" sourceY="-97" targetX="159" targetY="79"/>
+    <bendpoints xmi:id="_34SiiN-HEeeFbsQhSaqEMA" sourceX="78" sourceY="-97" targetX="237" targetY="79"/>
+    <bendpoints xmi:id="_34Siid-HEeeFbsQhSaqEMA" sourceX="78" sourceY="-176" targetX="237"/>
+    <stereotypes xmi:id="_w9M_st-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k95VFt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w9MYoN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb8KId-HEeeFbsQhSaqEMA" position="-63.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_w9M_sN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k95VFd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb8KIN-HEeeFbsQhSaqEMA" position="-20.0,-67.0"/>
+      <visibility xmi:id="_w9NmwN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9M_tt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w9M_sd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="connectedUsers" navigable="true">
+      <modelElement href="GameServer.uml#_k7-Cc9-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb8xMN-HEeeFbsQhSaqEMA" position="239.0,5.0"/>
+      <visibility xmi:id="_w9Nmwt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9Nmwd-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w8oX8N-HEeeFbsQhSaqEMA" sourceAnchor="255.0,78.0" targetAnchor="501.0,135.0" target="_w9bCIN-HEeeFbsQhSaqEMA" source="_xCfvYN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Gq6N-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TJmt-HEeeFbsQhSaqEMA" sourceX="471" targetX="62" targetY="-325"/>
+    <bendpoints xmi:id="_34TJm9-HEeeFbsQhSaqEMA" sourceX="471" sourceY="325" targetX="62"/>
+    <nameVisual xmi:id="_w9M_s9-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb-mYd-HEeeFbsQhSaqEMA" position="-8.0,77.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_w9M_tN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="selfStub" navigable="true">
+      <modelElement href="GameServer.uml#_k7-pgd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb-mYN-HEeeFbsQhSaqEMA" position="5.0,-47.0"/>
+      <visibility xmi:id="_w9NmxN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9Nmw9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w9M_td-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9Gq6d-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb_NcN-HEeeFbsQhSaqEMA" position="5.0,-47.0"/>
+      <visibility xmi:id="_w9Nmxt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9Nmxd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8w60N-HEeeFbsQhSaqEMA" targetItem="_xCfvZ9-HEeeFbsQhSaqEMA" sourceItem="_w8tQcN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w84PkN-HEeeFbsQhSaqEMA" targetItem="_xCfvbN-HEeeFbsQhSaqEMA" sourceItem="_w80lMN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w8_kUN-HEeeFbsQhSaqEMA" targetItem="_xCfvcd-HEeeFbsQhSaqEMA" sourceItem="_w88hAN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_w9HgIN-HEeeFbsQhSaqEMA" targetItem="_xCfvd9-HEeeFbsQhSaqEMA" sourceItem="_w9DOsN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w9ON0N-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k95VEd-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_w9ON0d-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k95VE9-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w9ON0t-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_w9ON09-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k95VEt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9ON1N-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9ON1d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w9ON1t-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="modelAdpt" navigable="true">
+      <modelElement href="GameServer.uml#_k7-Ccd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9ON19-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_w9ON2N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w9SfQN-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k958IN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_w9SfQd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k958It-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w9SfQt-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_w9SfQ9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k958Id-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9SfRN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9SfRd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w9SfRt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="messageCache" navigable="true">
+      <modelElement href="GameServer.uml#_k7-pgt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9SfR9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_w9SfSN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_w9SfSd-HEeeFbsQhSaqEMA">
+        <qualifiers xmi:id="_w9SfSt-HEeeFbsQhSaqEMA">
+          <modelElement href="GameServer.uml#_k8AesN-HEeeFbsQhSaqEMA"/>
+          <stereotypes xmi:id="_w9SfS9-HEeeFbsQhSaqEMA" name="Generics">
+            <modelElement href="GameServer.uml#_k8Aesd-HEeeFbsQhSaqEMA"/>
+          </stereotypes>
+          <visibility xmi:id="_w9SfTN-HEeeFbsQhSaqEMA" label="+"/>
+          <cardinality xmi:id="_w9SfTd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+          <type xmi:id="_w9SfTt-HEeeFbsQhSaqEMA" name="Class">
+            <modelElement href="GameServer.uml#_k7_3oN-HEeeFbsQhSaqEMA"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w9WwsN-HEeeFbsQhSaqEMA" source="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k958I9-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_w9Wwsd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k958Jd-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_w9Wwst-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_w9Wws9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k958JN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9WwtN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9Wwtd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_w9Wwtt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="algo" navigable="true">
+      <modelElement href="GameServer.uml#_k8BFwN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9Wwt9-HEeeFbsQhSaqEMA" label="~"/>
+      <cardinality xmi:id="_w9WwuN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w-pxMN-HEeeFbsQhSaqEMA" sourceAnchor="0.0,91.0" targetAnchor="0.0,106.0" target="_xBTckN-HEeeFbsQhSaqEMA" source="_xCfvYN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-vEN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TwoN-HEeeFbsQhSaqEMA" sourceX="-117" targetX="-19" targetY="-689"/>
+    <bendpoints xmi:id="_34Twod-HEeeFbsQhSaqEMA" sourceX="-117" sourceY="689" targetX="-19"/>
+    <nameVisual xmi:id="_xAYPgN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb_Nct-HEeeFbsQhSaqEMA" position="-8.0,-261.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xAYPgd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="selfStub" navigable="true">
+      <modelElement href="GameServer.uml#_k6vTYd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb_Ncd-HEeeFbsQhSaqEMA" position="-109.0,5.0"/>
+      <visibility xmi:id="_xBJrkd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBJrkN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xAY2kN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k8-vEd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb_0gN-HEeeFbsQhSaqEMA" position="-41.0,-46.0"/>
+      <visibility xmi:id="_xBJrk9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBJrkt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w_W70N-HEeeFbsQhSaqEMA" sourceAnchor="213.0,0.0" targetAnchor="187.0,138.0" target="_w19IN9-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9fsd9-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TJkt-HEeeFbsQhSaqEMA" sourceY="-33" targetX="-650" targetY="683"/>
+    <bendpoints xmi:id="_34TJk9-HEeeFbsQhSaqEMA" sourceX="923" sourceY="-33" targetX="273" targetY="683"/>
+    <bendpoints xmi:id="_34TJlN-HEeeFbsQhSaqEMA" sourceX="923" sourceY="-712" targetX="273" targetY="4"/>
+    <bendpoints xmi:id="_34TJld-HEeeFbsQhSaqEMA" sourceX="650" sourceY="-712" targetY="4"/>
+    <stereotypes xmi:id="_xAY2lN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9gTgN-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xAY2kd-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb9YQN-HEeeFbsQhSaqEMA" position="-24.0,-313.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xAY2kt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9fseN-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb8xMd-HEeeFbsQhSaqEMA" position="5.0,-71.0"/>
+      <visibility xmi:id="_xBJrld-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBJrlN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xAY2k9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="chatRooms" navigable="true">
+      <modelElement href="GameServer.uml#_k6vTYt-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb9YQd-HEeeFbsQhSaqEMA" position="165.0,-33.0"/>
+      <visibility xmi:id="_xBJrl9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBJrlt-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_w_mzcN-HEeeFbsQhSaqEMA" sourceAnchor="0.0,119.0" targetAnchor="0.0,78.0" target="_xCfvYN-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9gTh9-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TJlt-HEeeFbsQhSaqEMA" sourceX="-149" targetX="-247" targetY="715"/>
+    <bendpoints xmi:id="_34TJl9-HEeeFbsQhSaqEMA" sourceX="-149" sourceY="-715" targetX="-247"/>
+    <stereotypes xmi:id="_xAdIA9-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9g6kN-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xAdIAN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_xb9_Ud-HEeeFbsQhSaqEMA" position="-24.0,324.0000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xAdIAd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9gTiN-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb9_UN-HEeeFbsQhSaqEMA" position="-19.0,5.0"/>
+      <visibility xmi:id="_xBKSot-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBKSod-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xAdIAt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="connectedUsers" navigable="true">
+      <modelElement href="GameServer.uml#_k6xIk9-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_xb9_Ut-HEeeFbsQhSaqEMA" position="-223.9999999999999,5.0"/>
+      <visibility xmi:id="_xBKSpN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBKSo9-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xABqMN-HEeeFbsQhSaqEMA" sourceAnchor="200.0,0.0" targetAnchor="128.0,155.0" dashed="true" superClass="_xCfvYN-HEeeFbsQhSaqEMA" subClass="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k09bgN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34TJmN-HEeeFbsQhSaqEMA" sourceY="-425" targetX="-26" targetY="93"/>
+    <bendpoints xmi:id="_34TJmd-HEeeFbsQhSaqEMA" sourceX="26" sourceY="-425" targetY="93"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xARh0N-HEeeFbsQhSaqEMA" targetItem="_xBTckN-HEeeFbsQhSaqEMA" sourceItem="_xAIX4N-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xAY2ld-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9gTgd-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_xBKSoN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9gTg9-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xBJrmd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xBJrmt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9gTgt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMH0d-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBMH0N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xBJrm9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="GameServer.uml#_k6whg9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMH09-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_xBMH0t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xAdvEN-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9g6kd-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_xBKSqN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9g6k9-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xBKSpd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xBKSpt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9g6kt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMH1t-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBMH1d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xBKSp9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="messageCache" navigable="true">
+      <modelElement href="GameServer.uml#_k6xvoN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMH2t-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_xBMH2d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_xBMH19-HEeeFbsQhSaqEMA">
+        <qualifiers xmi:id="_xBMH2N-HEeeFbsQhSaqEMA">
+          <modelElement href="GameServer.uml#_k6yWsd-HEeeFbsQhSaqEMA"/>
+          <stereotypes xmi:id="_xBNV8d-HEeeFbsQhSaqEMA" name="Generics">
+            <modelElement href="GameServer.uml#_k6y9wN-HEeeFbsQhSaqEMA"/>
+          </stereotypes>
+          <visibility xmi:id="_xBNV8N-HEeeFbsQhSaqEMA" label="+"/>
+          <cardinality xmi:id="_xBNV8t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+          <type xmi:id="_xBMu6N-HEeeFbsQhSaqEMA" name="Class">
+            <modelElement href="GameServer.uml#_k6nXkN-HEeeFbsQhSaqEMA"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xAiAgN-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9g6lN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_xBKSrN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9g6lt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xBKSqd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xBKSqt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9g6ld-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMu49-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBMu4t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xBKSq9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="algo" navigable="true">
+      <modelElement href="GameServer.uml#_k6y9wd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBMu5d-HEeeFbsQhSaqEMA" label="~"/>
+      <cardinality xmi:id="_xBMu5N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xAouMN-HEeeFbsQhSaqEMA" targetItem="_xBUDvN-HEeeFbsQhSaqEMA" sourceItem="_xAlq4N-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xAxREN-HEeeFbsQhSaqEMA" targetItem="_xBUD0N-HEeeFbsQhSaqEMA" sourceItem="_xAtmsN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xA5z8N-HEeeFbsQhSaqEMA" targetItem="_xBUD5N-HEeeFbsQhSaqEMA" sourceItem="_xA2JkN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xBC94N-HEeeFbsQhSaqEMA" targetItem="_xBUD7N-HEeeFbsQhSaqEMA" sourceItem="_xA-scN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xBOkEN-HEeeFbsQhSaqEMA" source="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9gThN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_xBOkEd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9gTht-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xBOkEt-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xBOkE9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9gThd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBOkFN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBOkFd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xBOkFt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="modelAdpt" navigable="true">
+      <modelElement href="GameServer.uml#_k6xIkd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBOkF9-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_xBOkGN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xEWJgN-HEeeFbsQhSaqEMA" targetItem="_xGgFoN-HEeeFbsQhSaqEMA" sourceItem="_xD5dkN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xEhIoN-HEeeFbsQhSaqEMA" superClass="_xGgFoN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k0loFN-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xEqSkN-HEeeFbsQhSaqEMA" sourceItem="_xEkzAN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xFL3AN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k2cpQN-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xFQIcN-HEeeFbsQhSaqEMA" target="_w19IN9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Zl1N-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_xGe3ht-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9Zl1t-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xGe3g9-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xGe3hN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9Zl1d-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xGfeld-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xGfelN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xGe3hd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="lobbyRoom" navigable="true">
+      <modelElement href="GameServer.uml#_kp8eUN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xGfel9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xGfelt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xFZSYN-HEeeFbsQhSaqEMA" source="_w19IN9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Gq4d-HEeeFbsQhSaqEMA"/>
+    <nameVisual xmi:id="_xGe3gN-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_xGe3gd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="teams" navigable="true">
+      <modelElement href="GameServer.uml#_kp8eUd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xGfekd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xGfekN-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xGe3gt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9Gq4t-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xGfek9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xGfekt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xGT4YN-HEeeFbsQhSaqEMA" sourceItem="_xF4akN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3Ez3IN-HEeeFbsQhSaqEMA" targetItem="_3E26cN-HEeeFbsQhSaqEMA" sourceItem="_3EbcoN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3E1sUN-HEeeFbsQhSaqEMA" targetItem="_3E26c9-HEeeFbsQhSaqEMA" sourceItem="_3E1FQN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3E2TYN-HEeeFbsQhSaqEMA" targetItem="_3E26eN-HEeeFbsQhSaqEMA" sourceItem="_3E1sUd-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3F3nEN-HEeeFbsQhSaqEMA" targetItem="_3GHesN-HEeeFbsQhSaqEMA" sourceItem="_3FRxMN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3GD0Ud-HEeeFbsQhSaqEMA" targetItem="_3GIFzN-HEeeFbsQhSaqEMA" sourceItem="_3GD0UN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3GG3oN-HEeeFbsQhSaqEMA" source="_3GHesN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k92RxN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3GG3od-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k92Rxt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3GG3ot-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3GG3o9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k92Rxd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3GG3pN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3GG3pd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3GG3pt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="cmd2ModelAdpt" navigable="true">
+      <modelElement href="GameServer.uml#_k72GoN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3GG3p9-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3GG3qN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3Gq4UN-HEeeFbsQhSaqEMA" sourceAnchor="322.0,0.0" targetAnchor="255.0,48.0" target="_xCfvYN-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9d3RN-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34Twot-HEeeFbsQhSaqEMA" sourceY="-29" targetX="1175"/>
+    <stereotypes xmi:id="_3JdGk9-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9d3Rt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3JdGkN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wNkk9-HEeeFbsQhSaqEMA" position="-608.5,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3JdGkd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9d3Rd-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wNkkt-HEeeFbsQhSaqEMA" position="-87.4375,-72.0"/>
+      <visibility xmi:id="_3KJqId-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KJqIN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3JdGkt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="userStub" navigable="true">
+      <modelElement href="GameServer.uml#_k6liYt-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wNklN-HEeeFbsQhSaqEMA" position="70.43749999999977,-42.99999999999994"/>
+      <visibility xmi:id="_3KJqI9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KJqIt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3HU_oN-HEeeFbsQhSaqEMA" sourceAnchor="497.0,0.0" targetAnchor="122.0,98.0" target="_3E26cN-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9eeV9-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3KC8cd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9fFYN-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KCVYN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wOysN-HEeeFbsQhSaqEMA" position="41.5,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3KCVYd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9eeWN-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wOLoN-HEeeFbsQhSaqEMA" position="2.5,-50.66666666666663"/>
+      <visibility xmi:id="_3KK4QN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KKROd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KC8cN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="receiverStub" navigable="true">
+      <modelElement href="GameServer.uml#_k6olst-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wOysd-HEeeFbsQhSaqEMA" position="-82.5,9.666666666666686"/>
+      <visibility xmi:id="_3KK4Qt-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KK4Qd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3H-f4N-HEeeFbsQhSaqEMA" sourceAnchor="635.0,0.0" targetAnchor="173.0,0.0" target="_w19IN9-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9fFYd-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34U-wN-HEeeFbsQhSaqEMA" sourceY="-303" targetX="992" targetY="-45"/>
+    <bendpoints xmi:id="_34U-wd-HEeeFbsQhSaqEMA" sourceX="-992" sourceY="-303" targetY="-45"/>
+    <stereotypes xmi:id="_3KC8dd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9fFY9-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KC8ct-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wPZwd-HEeeFbsQhSaqEMA" position="-63.818181818181756,-17.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3KC8c9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9fFYt-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wPZwN-HEeeFbsQhSaqEMA" position="2.0,-74.5"/>
+      <visibility xmi:id="_3KK4Rd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KK4RN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KC8dN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="room" navigable="true">
+      <modelElement href="GameServer.uml#_k6pMwN-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wPZwt-HEeeFbsQhSaqEMA" position="41.5,-43.999999999999886"/>
+      <visibility xmi:id="_3KK4R9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KK4Rt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3IgEUN-HEeeFbsQhSaqEMA" sourceAnchor="527.0,0.0" targetAnchor="152.0,98.0" dashed="true" superClass="_3E26cN-HEeeFbsQhSaqEMA" subClass="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k03U4d-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3JSugN-HEeeFbsQhSaqEMA" targetItem="_3KS0EN-HEeeFbsQhSaqEMA" sourceItem="_3JBowN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3JdGlN-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9eeUd-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3KKRNN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9eeU9-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KKRMd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3KKRMt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9eeUt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KMGYd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KMGYN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KKRM9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="messageCache" navigable="true">
+      <modelElement href="GameServer.uml#_k6mJc9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KMGZd-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KMGZN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_3KMGYt-HEeeFbsQhSaqEMA">
+        <qualifiers xmi:id="_3KMGY9-HEeeFbsQhSaqEMA">
+          <modelElement href="GameServer.uml#_k6n-oN-HEeeFbsQhSaqEMA"/>
+          <stereotypes xmi:id="_3KNUiN-HEeeFbsQhSaqEMA" name="Generics">
+            <modelElement href="GameServer.uml#_k6n-od-HEeeFbsQhSaqEMA"/>
+          </stereotypes>
+          <visibility xmi:id="_3KNUh9-HEeeFbsQhSaqEMA" label="+"/>
+          <cardinality xmi:id="_3KNUid-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+          <type xmi:id="_3KNUht-HEeeFbsQhSaqEMA" name="Class">
+            <modelElement href="GameServer.uml#_k6nXkN-HEeeFbsQhSaqEMA"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3J5ygN-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9eeVN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3KKRON-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9eeVt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KKRNd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3KKRNt-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9eeVd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KMtc9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KMtct-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KKRN9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="GameServer.uml#_k6olsN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KMtdd-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KMtdN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3KC8dt-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9fFZN-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3KK4TN-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9fFZt-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KK4Sd-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3KK4St-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9fFZd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KNUgd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KNUgN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KK4S9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="algo" navigable="true">
+      <modelElement href="GameServer.uml#_k6pMwt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KNUg9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KNUgt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3KExoN-HEeeFbsQhSaqEMA" targetItem="_3KS0S9-HEeeFbsQhSaqEMA" sourceItem="_3KEKkN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3KGm0N-HEeeFbsQhSaqEMA" targetItem="_3KS0bt-HEeeFbsQhSaqEMA" sourceItem="_3KF_wN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3KQ-4N-HEeeFbsQhSaqEMA" source="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9d3R9-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3KQ-4d-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9eeUN-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3KQ-4t-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3KQ-49-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9d3SN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KQ-5N-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KQ-5d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3KQ-5t-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="cmd2ModelAdpt" navigable="true">
+      <modelElement href="GameServer.uml#_k6mJcd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KQ-59-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KQ-6N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3LbcgN-HEeeFbsQhSaqEMA" sourceAnchor="0.0,53.0" targetAnchor="221.0,270.0" target="_w9bCIN-HEeeFbsQhSaqEMA" source="_3RMtUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9241N-HEeeFbsQhSaqEMA"/>
+    <bendpoints xmi:id="_34WM4N-HEeeFbsQhSaqEMA" sourceX="-26" targetY="252"/>
+    <stereotypes xmi:id="_3PrqYt-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k9241t-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3PrDUN-HEeeFbsQhSaqEMA" text="">
+      <visualProperties xmi:id="_3wQA0d-HEeeFbsQhSaqEMA" position="2.0,-133.25"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3PrqYN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9241d-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wQA0N-HEeeFbsQhSaqEMA" position="-25.0,-81.5"/>
+      <visibility xmi:id="_3RKREd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3RKREN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3PrqYd-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="GameServer.uml#_k75J8t-HEeeFbsQhSaqEMA"/>
+      <visualProperties xmi:id="_3wQA0t-HEeeFbsQhSaqEMA" position="-39.0,30.928571428571445"/>
+      <visibility xmi:id="_3RK4IN-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3RKREt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3OWNoN-HEeeFbsQhSaqEMA" sourceAnchor="820.0,0.0" targetAnchor="122.0,235.0" superClass="_3KS0EN-HEeeFbsQhSaqEMA" subClass="_3RMtUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k2Utct-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3PgrQN-HEeeFbsQhSaqEMA" targetItem="_3RMtUN-HEeeFbsQhSaqEMA" sourceItem="_3PUeAN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3Pmx4N-HEeeFbsQhSaqEMA" sourceAnchor="840.0,0.0" targetAnchor="381.0,107.0" superClass="_3RMtUN-HEeeFbsQhSaqEMA" subClass="_3GHesN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k1-vNt-HEeeFbsQhSaqEMA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3PrqY9-HEeeFbsQhSaqEMA" source="_3RMtUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k92419-HEeeFbsQhSaqEMA"/>
+    <stereotypes xmi:id="_3RK4Jd-HEeeFbsQhSaqEMA" name="Reference">
+      <modelElement href="GameServer.uml#_k93f4N-HEeeFbsQhSaqEMA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3RK4It-HEeeFbsQhSaqEMA" text=""/>
+    <sourceRole xmi:id="_3RK4I9-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="">
+      <modelElement href="GameServer.uml#_k9242N-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3RLfMd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3RLfMN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3RK4JN-HEeeFbsQhSaqEMA" aggregationKind="NONE" name="cmd2ModelAdpt" navigable="true">
+      <modelElement href="GameServer.uml#_k75xAd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3RMGQd-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3RMGQN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3QvaUN-HEeeFbsQhSaqEMA" targetItem="_3RMtXd-HEeeFbsQhSaqEMA" sourceItem="_3PzmMN-HEeeFbsQhSaqEMA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3RAgEN-HEeeFbsQhSaqEMA" targetItem="_3RMtYN-HEeeFbsQhSaqEMA" sourceItem="_3Q7nkN-HEeeFbsQhSaqEMA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wy9ekN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_wzXuQN-HEeeFbsQhSaqEMA" text="ChatRoom defines a set of operations of a chat room, implement interface IChatRoom" item="_wzdN0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8858d-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wzY8YN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_wzZjcN-HEeeFbsQhSaqEMA" text="Constructor for ChatRoom, create a chat room with a given name&#xA;&#x9; * @param name the name of the chat room" item="_wzdN5t-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8858t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w0kBEN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w1QkoN-HEeeFbsQhSaqEMA" text="A generalized chat room interface that defines a set of operations of a chat room.&#xA;A chat room is a FULLY SERIALIZABLE object that is wholly transmitted from one machine to another machine&#xA;A chat room holds a set of IReceiver stubs." item="_w19IN9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k87rxt-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w16r8N-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w16r8d-HEeeFbsQhSaqEMA" text="Get the name of the chat room&#xA;&#x9; * @return The name of the chat room" item="_w19IQt-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k87rx9-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w17TAN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w17TAd-HEeeFbsQhSaqEMA" text="Add a receiver in the local chat room without interacting with remote peers&#xA;&#x9; * @param receiver the receiver to add&#xA;&#x9; * @return False if the receiver is already in the chat room; True if successfully add the receiver" item="_w19IT9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S0t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w17TAt-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w176EN-HEeeFbsQhSaqEMA" text="Remove a receiver in the local chat room without interacting with remote peers&#xA;&#x9; * @param receiver the receiver to remove&#xA;&#x9; * @return False if the receiver is actually not in the chat room; True if successfully remove the receiver" item="_w19IV9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S09-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w3hOcN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w3ziUN-HEeeFbsQhSaqEMA" text="Chatroom implementation in the server side" item="_w32loN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9GD0d-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w6H2gN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w6b_kN-HEeeFbsQhSaqEMA" text="Implementation of IUser defining a user in a chat app" item="_w9bCIN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Gq59-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w7hksN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w7wOMN-HEeeFbsQhSaqEMA" text="Create a chat room using a given name&#xA;&#x9; * @param name name of the chat room to be created&#xA;&#x9; * @return a new chat room object with a given name" item="_w9bCUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9HR89-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w7z4kN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w75YIN-HEeeFbsQhSaqEMA" text="Constructor for User&#xA;&#x9; * @param name the name of the user&#xA;&#x9; * @param modelAdpt adapter supporting auto-connect-back feature" item="_w9bCZN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9HR8N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w7-QoN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8As4N-HEeeFbsQhSaqEMA" text="Join a chat room&#xA;&#x9; * @param chatRoom the chat room to join&#xA;&#x9; * @return false if already in  the chat room; true if successfully joined the chat room" item="_w9bCeN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9HR8d-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w8FlYN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8JPwN-HEeeFbsQhSaqEMA" text="Leave a chat room&#xA;&#x9; * @param chatRoom the chat room to leave&#xA;&#x9; * @return false if not in  the chat room; true if successfully leaved the chat room" item="_w9bCgN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9HR8t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w8OIQN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8RLkN-HEeeFbsQhSaqEMA" text="Send message to a target user&#xA;&#x9; * @param remoteUser the target user&#xA;&#x9; * @param data the data" item="_w9bCkd-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9HR9N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w8YgUN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8dY0N-HEeeFbsQhSaqEMA" text="IUser interface defines a set of operations of a user in our chatApp&#xA;IUser is NOT transmitted to anyone. ONLY the STUB of this Remote object is ever transmitted." item="_xCfvYN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S29-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w8tQcN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8w60N-HEeeFbsQhSaqEMA" text="Get the name of the user.&#xA;&#x9; * @return The name of the user&#xA;&#x9; * @throws RemoteException if a network error occurs" item="_xCfvZ9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S3N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w80lMN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w84PkN-HEeeFbsQhSaqEMA" text="Get UUid of the user, which is a unique identifier for the user.&#xA;&#x9; * The UUID value of the user must equals the UUID value of all receivers belonging to this user. &#xA;&#x9; * @return uuid of the user&#xA;&#x9; * @throws RemoteException if a network error occurs" item="_xCfvbN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S3d-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w88hAN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w8_kUN-HEeeFbsQhSaqEMA" text="Get all chat rooms the user has joined.&#xA;&#x9; * @return All chat rooms the user has joined&#xA;&#x9; * @throws RemoteException if a network error occurs" item="_xCfvcd-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S3t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_w9DOsN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_w9HgIN-HEeeFbsQhSaqEMA" text="A method to be called by remote user for auto-connect-back&#xA;&#x9; * @param userStub A remote user stub&#xA;&#x9; * @throws RemoteException if a network error occurs" item="_xCfvd9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S39-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xAIX4N-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xARh0N-HEeeFbsQhSaqEMA" text="Implementation of IUser defining a user in a chat app" item="_xBTckN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-ICd-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xAlq4N-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xAouMN-HEeeFbsQhSaqEMA" text="Create a chat room using a given name&#xA;&#x9; * @param name name of the chat room to be created&#xA;&#x9; * @return a new chat room object with a given name" item="_xBUDvN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-vFd-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xAtmsN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xAxREN-HEeeFbsQhSaqEMA" text="Constructor for User&#xA;&#x9; * @param name the name of the user&#xA;&#x9; * @param modelAdpt adapter supporting auto-connect-back feature" item="_xBUD0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-vEt-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xA2JkN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xA5z8N-HEeeFbsQhSaqEMA" text="Join a chat room&#xA;&#x9; * @param chatRoom the chat room to join&#xA;&#x9; * @return false if already in  the chat room; true if successfully joined the chat room" item="_xBUD5N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-vE9-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xA-scN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xBC94N-HEeeFbsQhSaqEMA" text="Leave a chat room&#xA;&#x9; * @param chatRoom the chat room to leave&#xA;&#x9; * @return false if not in  the chat room; true if successfully leaved the chat room" item="_xBUD7N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-vFN-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xD5dkN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xEWJgN-HEeeFbsQhSaqEMA" text="This adapter is for the externally-sourced commands to  interact with the local system,&#xA;specifically the DataPacketUserAlgoCmd.&#xA;Here we specify the target recipient in sendTo() method to IUser type." item="_xGgFoN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8854N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xEkzAN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xEqSkN-HEeeFbsQhSaqEMA" text="Adapter for the user talking with model/view, to support auto-connect-back feature">
+    <modelElement href="GameServer.uml#_k89g9N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xF4akN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_xGT4YN-HEeeFbsQhSaqEMA" text="Adapter for the user talking with the model">
+    <modelElement href="GameServer.uml#_k9Gq4N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wzdN0N-HEeeFbsQhSaqEMA" comments="_wy9ekN-HEeeFbsQhSaqEMA" targetConnectionVisual="_wzXuQN-HEeeFbsQhSaqEMA" name="ChatRoom" associationsOut="_wzb_sN-HEeeFbsQhSaqEMA _wzcmwN-HEeeFbsQhSaqEMA" generalizations="_w1vs0N-HEeeFbsQhSaqEMA" subclassedBy="_w3IM4N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kluFoN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_wzdN0d-HEeeFbsQhSaqEMA" position="11.0,221.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wzdN0t-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_wzdN09-HEeeFbsQhSaqEMA" defaultValue="-5416342672425833835L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="GameServer.uml#_k6WR0t-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzdN1N-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzdN1d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_wzdN1t-HEeeFbsQhSaqEMA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wzdN19-HEeeFbsQhSaqEMA" name="name">
+      <modelElement href="GameServer.uml#_k6W44N-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdN2N-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6W44d-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdN2d-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzdN2t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_wzdN29-HEeeFbsQhSaqEMA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wzdN3N-HEeeFbsQhSaqEMA" name="receiverStubs">
+      <modelElement href="GameServer.uml#_k6W44t-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdN3d-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6Xf8N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdN3t-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzdN39-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_wzdN4N-HEeeFbsQhSaqEMA" name="IReceiver">
+        <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wzdN4d-HEeeFbsQhSaqEMA" name="id">
+      <modelElement href="GameServer.uml#_k6Xf8d-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdN4t-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6Xf8t-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdN49-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_wzdN5N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_wzdN5d-HEeeFbsQhSaqEMA" name="UUID">
+        <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wzdN5t-HEeeFbsQhSaqEMA" comments="_wzY8YN-HEeeFbsQhSaqEMA" targetConnectionVisual="_wzZjcN-HEeeFbsQhSaqEMA" name="ChatRoom">
+      <modelElement href="GameServer.uml#_klussN-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_wzdN59-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_wzdN6N-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdN6d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdN6t-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klvTwd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdN69-HEeeFbsQhSaqEMA" name="ChatRoom">
+          <modelElement href="GameServer.uml#_kluFoN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wzdN7N-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_klussd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_wzdN7d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_wzdN7t-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wzdN79-HEeeFbsQhSaqEMA" name="getName">
+      <modelElement href="GameServer.uml#_klvTwt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdN8N-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_klv60d-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdN8d-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_klxI8N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdN8t-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdN89-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdN9N-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klv60N-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdN9d-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wzdN9t-HEeeFbsQhSaqEMA" name="toString">
+      <modelElement href="GameServer.uml#_klxI8t-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzdN99-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdN-N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdN-d-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klxwAN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdN-t-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wzdN-9-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_klyXEN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdN_N-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_klyXEd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdN_d-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kly-IN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdN_t-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdN_9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdOAN-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k3w34N-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdOAd-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wzdOAt-HEeeFbsQhSaqEMA" name="getIReceiverStubs">
+      <modelElement href="GameServer.uml#_kly-It-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_wzdOA9-HEeeFbsQhSaqEMA" keyword="generic_container"/>
+      <stereotypes xmi:id="_wzdOBN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_klzlNN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdOBd-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kl0MQN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdOBt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdOB9-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_wzdOCN-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klzlMN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdOCd-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wzdOCt-HEeeFbsQhSaqEMA" name="hashCode">
+      <modelElement href="GameServer.uml#_kl0zUN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzdOC9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdODN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdODd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_kl0zUd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdODt-HEeeFbsQhSaqEMA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wzdOD9-HEeeFbsQhSaqEMA" name="sendPacket">
+      <modelElement href="GameServer.uml#_k0dsQN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdOEN-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k0dsQt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdOEd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0dsQ9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdOEt-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k0eTUd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdOE9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdOFN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wzdOFd-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k0dsQd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_wzdOFt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_wzdOF9-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wzdOGN-HEeeFbsQhSaqEMA" name="addIReceiverStub">
+      <modelElement href="GameServer.uml#_k0e6YN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdOGd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0e6Y9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdOGt-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k0e6ZN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdOG9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdOHN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdOHd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0e6Yt-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdOHt-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wzdOH9-HEeeFbsQhSaqEMA" name="receiver">
+        <modelElement href="GameServer.uml#_k0e6Yd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_wzdOIN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_wzdOId-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wzdOIt-HEeeFbsQhSaqEMA" name="removeIReceiverStub">
+      <modelElement href="GameServer.uml#_k0fhcN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_wzdOI9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0fhc9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wzdOJN-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k0fhdN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_wzdOJd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdOJt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdOJ9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0fhct-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdOKN-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wzdOKd-HEeeFbsQhSaqEMA" name="receiver">
+        <modelElement href="GameServer.uml#_k0fhcd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_wzdOKt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_wzdOK9-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wzdOLN-HEeeFbsQhSaqEMA" name="equals">
+      <modelElement href="GameServer.uml#_k3xe8d-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_wzdOLd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_wzdOLt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wzdOL9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k3xe89-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_wzdOMN-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wzdOMd-HEeeFbsQhSaqEMA" name="other">
+        <modelElement href="GameServer.uml#_k3xe8t-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_wzdOMt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_wzdOM9-HEeeFbsQhSaqEMA" name="Object">
+          <modelElement href="GameServer.uml#_k3w34d-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_w19IN9-HEeeFbsQhSaqEMA" comments="_w0kBEN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w1QkoN-HEeeFbsQhSaqEMA" name="IChatRoom" associationsIn="_w11MYN-HEeeFbsQhSaqEMA _w5bS8N-HEeeFbsQhSaqEMA _w_W70N-HEeeFbsQhSaqEMA _xFQIcN-HEeeFbsQhSaqEMA _3H-f4N-HEeeFbsQhSaqEMA" associationsOut="_w11zcN-HEeeFbsQhSaqEMA _xFZSYN-HEeeFbsQhSaqEMA" subclassedBy="_w1vs0N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_w19ION-HEeeFbsQhSaqEMA" position="1214.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_w19IOd-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_w19IOt-HEeeFbsQhSaqEMA" name="uUID">
+      <modelElement href="GameServer.uml#_klOWYd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19IO9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IPN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w19IPd-HEeeFbsQhSaqEMA" name="UUID">
+        <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w19IPt-HEeeFbsQhSaqEMA" name="iReceiverStubs">
+      <modelElement href="GameServer.uml#_klO9cN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19IP9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IQN-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_w19IQd-HEeeFbsQhSaqEMA" name="IReceiver">
+        <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_w19IQt-HEeeFbsQhSaqEMA" comments="_w16r8N-HEeeFbsQhSaqEMA" targetConnectionVisual="_w16r8d-HEeeFbsQhSaqEMA" name="getName">
+      <modelElement href="GameServer.uml#_klNvUN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19IQ9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IRN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w19IRd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klOWYN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w19IRt-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_w19IR9-HEeeFbsQhSaqEMA" name="sendPacket">
+      <modelElement href="GameServer.uml#_k0L_cd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w19ISN-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k0MmgN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w19ISd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0Mmgd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w19ISt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IS9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_w19ITN-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k0L_ct-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w19ITd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w19ITt-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w19IT9-HEeeFbsQhSaqEMA" comments="_w17TAN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w17TAd-HEeeFbsQhSaqEMA" name="addIReceiverStub">
+      <modelElement href="GameServer.uml#_k0NNkN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19IUN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IUd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w19IUt-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0NNkt-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w19IU9-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w19IVN-HEeeFbsQhSaqEMA" name="receiver">
+        <modelElement href="GameServer.uml#_k0NNkd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w19IVd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w19IVt-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w19IV9-HEeeFbsQhSaqEMA" comments="_w17TAt-HEeeFbsQhSaqEMA" targetConnectionVisual="_w176EN-HEeeFbsQhSaqEMA" name="removeIReceiverStub">
+      <modelElement href="GameServer.uml#_k0NNk9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w19IWN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w19IWd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w19IWt-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0NNld-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w19IW9-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w19IXN-HEeeFbsQhSaqEMA" name="receiver">
+        <modelElement href="GameServer.uml#_k0NNlN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w19IXd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w19IXt-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_w32loN-HEeeFbsQhSaqEMA" comments="_w3hOcN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w3ziUN-HEeeFbsQhSaqEMA" name="ServerChatRoom" generalizations="_w3IM4N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kpz7cN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_w32lod-HEeeFbsQhSaqEMA" position="28.0,517.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_w32lot-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_w32lo9-HEeeFbsQhSaqEMA" defaultValue="-6319324100884338117L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="GameServer.uml#_k75J8N-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w32lpN-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_w32lpd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w32lpt-HEeeFbsQhSaqEMA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_w32lp9-HEeeFbsQhSaqEMA" name="ServerChatRoom">
+      <modelElement href="GameServer.uml#_kp0igN-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_w32lqN-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_w32lqd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w32lqt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w32lq9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_kp0ihN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w32lrN-HEeeFbsQhSaqEMA" name="ServerChatRoom">
+          <modelElement href="GameServer.uml#_kpz7cN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w32lrd-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_kp0igd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w32lrt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w32lr9-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w32lsN-HEeeFbsQhSaqEMA" name="sendNonUnifrom">
+      <modelElement href="GameServer.uml#_k56M8N-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w32lsd-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k56M8t-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w32lst-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k58CIN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w32ls9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w32ltN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_w32ltd-HEeeFbsQhSaqEMA" name="dataPackets">
+        <modelElement href="GameServer.uml#_k56M8d-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w32ltt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w32lt9-HEeeFbsQhSaqEMA" name="HashMap">
+          <modelElement href="GameServer.uml#_k004oN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_w9bCIN-HEeeFbsQhSaqEMA" comments="_w6H2gN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w6b_kN-HEeeFbsQhSaqEMA" name="ServerUser" associationsIn="_w8oX8N-HEeeFbsQhSaqEMA _3LbcgN-HEeeFbsQhSaqEMA" associationsOut="_w5bS8N-HEeeFbsQhSaqEMA _w6jUVN-HEeeFbsQhSaqEMA _w8lUoN-HEeeFbsQhSaqEMA _w9ON0N-HEeeFbsQhSaqEMA _w9SfQN-HEeeFbsQhSaqEMA _w9WwsN-HEeeFbsQhSaqEMA" generalizations="_w8hqQN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kp9sct-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_w9bCId-HEeeFbsQhSaqEMA" position="799.0,479.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_w9bCIt-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_w9bCI9-HEeeFbsQhSaqEMA" name="name">
+      <modelElement href="GameServer.uml#_k77mMN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCJN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k77mMd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCJd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCJt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCJ9-HEeeFbsQhSaqEMA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCKN-HEeeFbsQhSaqEMA" name="chatRooms">
+      <modelElement href="GameServer.uml#_k78NQ9-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCKd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k780UN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCKt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCK9-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_w9bCLN-HEeeFbsQhSaqEMA" name="IChatRoom">
+        <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCLd-HEeeFbsQhSaqEMA" name="id">
+      <modelElement href="GameServer.uml#_k79bY9-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCLt-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k7-CcN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCL9-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_w9bCMN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCMd-HEeeFbsQhSaqEMA" name="UUID">
+        <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCMt-HEeeFbsQhSaqEMA" name="modelAdpt">
+      <modelElement href="GameServer.uml#_k7-Ccd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCM9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k7-Cct-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCNN-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_w9bCNd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCNt-HEeeFbsQhSaqEMA" name="IServerUser2ModelAdapter">
+        <modelElement href="GameServer.uml#_kp73QN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCN9-HEeeFbsQhSaqEMA" name="connectedUsers">
+      <modelElement href="GameServer.uml#_k7-Cc9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCON-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCOd-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_w9bCOt-HEeeFbsQhSaqEMA" name="IUser">
+        <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCO9-HEeeFbsQhSaqEMA" name="selfStub">
+      <modelElement href="GameServer.uml#_k7-pgd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCPN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCPd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCPt-HEeeFbsQhSaqEMA" name="IUser">
+        <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCP9-HEeeFbsQhSaqEMA" name="messageCache">
+      <modelElement href="GameServer.uml#_k7-pgt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCQN-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k7_QkN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCQd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k7_Qkd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCQt-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_w9bCQ9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCRN-HEeeFbsQhSaqEMA" name="List">
+        <modelElement href="GameServer.uml#_k01fs9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCRd-HEeeFbsQhSaqEMA" defaultValue="new DataPacketAlgo&lt;String, String>(&#xA;&#x9;&#x9;&#x9;new DataPacketUserAlgoCmd&lt;IUserMessageType>() {&#xA;&#x9;&#x9;&#x9;&#x9;private static final long serialVersionUID = -6765161040068207459L;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public String apply(Class&lt;?> id, DataPacketUser&lt;IUserMessageType> host, String... params) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Object x = host.getData();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;String name = &quot;Unknown remote name &quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;name = host.getSender().getName();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (RemoteException e1) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e1.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;modelAdpt.appendMsg(&quot;[Algo.apply() ] Default case called. successfully process data &quot; + x, name);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;List&lt;DataPacketUser&lt;?>> cache = messageCache.getOrDefault(id, new LinkedList&lt;DataPacketUser&lt;?>>());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cache.add(host);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;messageCache.put(id, cache);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;host.getSender().receive(new DataPacketUser&lt;IRequestCmdType>(IRequestCmdType.class,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new RequestCmdType(id), selfStub));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (RemoteException e) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public void setCmd2ModelAdpt(IUserCmd2ModelAdapter cmd2ModelAdpt) {&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;})" name="algo">
+      <modelElement href="GameServer.uml#_k8BFwN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCRt-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k8BFwd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCR9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k8Bs0N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCSN-HEeeFbsQhSaqEMA" label="~"/>
+      <cardinality xmi:id="_w9bCSd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCSt-HEeeFbsQhSaqEMA" name="DataPacketAlgo">
+        <modelElement href="GameServer.uml#_k02t0d-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_w9bCS9-HEeeFbsQhSaqEMA" defaultValue="0" name="numOfPlayers">
+      <modelElement href="GameServer.uml#_k8Bs0d-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCTN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k8Bs09-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCTd-HEeeFbsQhSaqEMA" label="~"/>
+      <cardinality xmi:id="_w9bCTt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_w9bCT9-HEeeFbsQhSaqEMA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_w9bCUN-HEeeFbsQhSaqEMA" comments="_w7hksN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w7wOMN-HEeeFbsQhSaqEMA" name="createChatRoom">
+      <modelElement href="GameServer.uml#_kp_hoN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCUd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCUt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCU9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k2fskN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bCVN-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w9bCVd-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_kp_hod-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCVt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCV9-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCWN-HEeeFbsQhSaqEMA" name="toString">
+      <modelElement href="GameServer.uml#_kp_hot-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCWd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCWt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCW9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_kp_ho9-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bCXN-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_w9bCXd-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_kqAIsN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCXt-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_kqAIsd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCX9-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kqAvwN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCYN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCYd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCYt-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k5_FcN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bCY9-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_w9bCZN-HEeeFbsQhSaqEMA" comments="_w7z4kN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w75YIN-HEeeFbsQhSaqEMA" name="ServerUser">
+      <modelElement href="GameServer.uml#_k2d3YN-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_w9bCZd-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_w9bCZt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCZ9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCaN-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k2d3Zd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bCad-HEeeFbsQhSaqEMA" name="ServerUser">
+          <modelElement href="GameServer.uml#_kp9sct-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w9bCat-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_k2d3Yd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCa9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCbN-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_w9bCbd-HEeeFbsQhSaqEMA" name="modelAdpt">
+        <modelElement href="GameServer.uml#_k2d3Yt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCbt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCb9-HEeeFbsQhSaqEMA" name="IServerUser2ModelAdapter">
+          <modelElement href="GameServer.uml#_kp73QN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCcN-HEeeFbsQhSaqEMA" name="connect">
+      <modelElement href="GameServer.uml#_k2eecN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCcd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k2eect-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCct-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k2eec9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCc9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCdN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_w9bCdd-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k2eecd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCdt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCd9-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCeN-HEeeFbsQhSaqEMA" comments="_w7-QoN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8As4N-HEeeFbsQhSaqEMA" name="joinChatRoom">
+      <modelElement href="GameServer.uml#_k2fFgN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCed-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCet-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCe9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k2fFgt-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bCfN-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w9bCfd-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k2fFgd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCft-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCf9-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCgN-HEeeFbsQhSaqEMA" comments="_w8FlYN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8JPwN-HEeeFbsQhSaqEMA" name="leaveChatRoom">
+      <modelElement href="GameServer.uml#_k2fFg9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCgd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCgt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_w9bCg9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k2fFhd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_w9bChN-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_w9bChd-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k2fFhN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCht-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCh9-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCiN-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k2fskd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_w9bCid-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k2fsk9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCit-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k2fslN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_w9bCi9-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k2hhwN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_w9bCjN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCjd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_w9bCjt-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k2fskt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bCj9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bCkN-HEeeFbsQhSaqEMA" name="DataPacketUser">
+          <modelElement href="GameServer.uml#_klIPwN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_w9bCkd-HEeeFbsQhSaqEMA" comments="_w8OIQN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8RLkN-HEeeFbsQhSaqEMA" name="sendTo">
+      <modelElement href="GameServer.uml#_k2hhwt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_w9bCkt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_w9bCk9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_w9bClN-HEeeFbsQhSaqEMA" name="remoteUser">
+        <modelElement href="GameServer.uml#_k2hhw9-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bpMN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bpMd-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_w9bpMt-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k2hhxN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_w9bpM9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_w9bpNN-HEeeFbsQhSaqEMA" name="DataPacketUser">
+          <modelElement href="GameServer.uml#_klIPwN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xBTckN-HEeeFbsQhSaqEMA" comments="_xAIX4N-HEeeFbsQhSaqEMA" targetConnectionVisual="_xARh0N-HEeeFbsQhSaqEMA" name="User" associationsIn="_w-pxMN-HEeeFbsQhSaqEMA" associationsOut="_w_W70N-HEeeFbsQhSaqEMA _w_mzcN-HEeeFbsQhSaqEMA _xAY2ld-HEeeFbsQhSaqEMA _xAdvEN-HEeeFbsQhSaqEMA _xAiAgN-HEeeFbsQhSaqEMA _xBOkEN-HEeeFbsQhSaqEMA" generalizations="_xABqMN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_km3VIN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_xBTckd-HEeeFbsQhSaqEMA" position="538.0,885.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xBTckt-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_xBTck9-HEeeFbsQhSaqEMA" name="name">
+      <modelElement href="GameServer.uml#_k6uFQN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBTclN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6uFQd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBTcld-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBTclt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBTcl9-HEeeFbsQhSaqEMA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBTcmN-HEeeFbsQhSaqEMA" name="selfStub">
+      <modelElement href="GameServer.uml#_k6vTYd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBTcmd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBTcmt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBTcm9-HEeeFbsQhSaqEMA" name="IUser">
+        <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBTcnN-HEeeFbsQhSaqEMA" name="chatRooms">
+      <modelElement href="GameServer.uml#_k6vTYt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBTcnd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6vTY9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBTcnt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUDoN-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_xBUDod-HEeeFbsQhSaqEMA" name="IChatRoom">
+        <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBUDot-HEeeFbsQhSaqEMA" name="id">
+      <modelElement href="GameServer.uml#_k6whg9-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUDo9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6xIkN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUDpN-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_xBUDpd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBUDpt-HEeeFbsQhSaqEMA" name="UUID">
+        <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBUDp9-HEeeFbsQhSaqEMA" name="modelAdpt">
+      <modelElement href="GameServer.uml#_k6xIkd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUDqN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6xIkt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUDqd-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_xBUDqt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBUDq9-HEeeFbsQhSaqEMA" name="IUser2ModelAdapter">
+        <modelElement href="GameServer.uml#_kmF5EN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBUDrN-HEeeFbsQhSaqEMA" name="connectedUsers">
+      <modelElement href="GameServer.uml#_k6xIk9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBUDrd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUDrt-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_xBUDr9-HEeeFbsQhSaqEMA" name="IUser">
+        <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBUDsN-HEeeFbsQhSaqEMA" name="messageCache">
+      <modelElement href="GameServer.uml#_k6xvoN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUDsd-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k6xvod-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUDst-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6yWsN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUDs9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_xBUDtN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBUDtd-HEeeFbsQhSaqEMA" name="List">
+        <modelElement href="GameServer.uml#_k01fs9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xBUDtt-HEeeFbsQhSaqEMA" defaultValue="new DataPacketAlgo&lt;String, String>(&#xA;&#x9;&#x9;&#x9;new DataPacketUserAlgoCmd&lt;IUserMessageType>() {&#xA;&#x9;&#x9;&#x9;&#x9;private static final long serialVersionUID = -6765161040068207459L;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public String apply(Class&lt;?> id, DataPacketUser&lt;IUserMessageType> host, String... params) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;List&lt;DataPacketUser&lt;?>> cache = messageCache.getOrDefault(id, new LinkedList&lt;DataPacketUser&lt;?>>());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cache.add(host);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;messageCache.put(id, cache);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;host.getSender().receive(new DataPacketUser&lt;IRequestCmdType>(IRequestCmdType.class,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new RequestCmdType(id), selfStub));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (RemoteException e) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public void setCmd2ModelAdpt(IUserCmd2ModelAdapter cmd2ModelAdpt) {&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;})" name="algo">
+      <modelElement href="GameServer.uml#_k6y9wd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUDt9-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k6y9wt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUDuN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6zk0d-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUDud-HEeeFbsQhSaqEMA" label="~"/>
+      <cardinality xmi:id="_xBUDut-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xBUDu9-HEeeFbsQhSaqEMA" name="DataPacketAlgo">
+        <modelElement href="GameServer.uml#_k02t0d-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xBUDvN-HEeeFbsQhSaqEMA" comments="_xAlq4N-HEeeFbsQhSaqEMA" targetConnectionVisual="_xAouMN-HEeeFbsQhSaqEMA" name="createChatRoom">
+      <modelElement href="GameServer.uml#_km4jQN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBUDvd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUDvt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUDv9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0-pqd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUDwN-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xBUDwd-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_km4jQd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUDwt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUDw9-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xBUDxN-HEeeFbsQhSaqEMA" name="toString">
+      <modelElement href="GameServer.uml#_km5KUN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBUDxd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUDxt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUDx9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_km5KUd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUDyN-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xBUDyd-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_km5KUt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUDyt-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_km5xYN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUDy9-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_km5xYd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUDzN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUDzd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUDzt-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k4QnIN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUDz9-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xBUD0N-HEeeFbsQhSaqEMA" comments="_xAtmsN-HEeeFbsQhSaqEMA" targetConnectionVisual="_xAxREN-HEeeFbsQhSaqEMA" name="User">
+      <modelElement href="GameServer.uml#_k0-CkN-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_xBUD0d-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_xBUD0t-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUD09-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUD1N-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0-Cld-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUD1d-HEeeFbsQhSaqEMA" name="User">
+          <modelElement href="GameServer.uml#_km3VIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xBUD1t-HEeeFbsQhSaqEMA" name="name">
+        <modelElement href="GameServer.uml#_k0-Ckd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD19-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD2N-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xBUD2d-HEeeFbsQhSaqEMA" name="modelAdpt">
+        <modelElement href="GameServer.uml#_k0-Ckt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD2t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD29-HEeeFbsQhSaqEMA" name="IUser2ModelAdapter">
+          <modelElement href="GameServer.uml#_kmF5EN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xBUD3N-HEeeFbsQhSaqEMA" name="connect">
+      <modelElement href="GameServer.uml#_k0-Clt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUD3d-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0-poN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUD3t-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k0-pod-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUD39-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUD4N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xBUD4d-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k0-Cl9-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD4t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD49-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xBUD5N-HEeeFbsQhSaqEMA" comments="_xA2JkN-HEeeFbsQhSaqEMA" targetConnectionVisual="_xA5z8N-HEeeFbsQhSaqEMA" name="joinChatRoom">
+      <modelElement href="GameServer.uml#_k0-po9-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBUD5d-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUD5t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUD59-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0-ppd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUD6N-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xBUD6d-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k0-ppN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD6t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD69-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xBUD7N-HEeeFbsQhSaqEMA" comments="_xA-scN-HEeeFbsQhSaqEMA" targetConnectionVisual="_xBC94N-HEeeFbsQhSaqEMA" name="leaveChatRoom">
+      <modelElement href="GameServer.uml#_k0-ppt-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xBUD7d-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUD7t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xBUD79-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0-pqN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xBUD8N-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xBUD8d-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k0-pp9-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD8t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD89-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xBUD9N-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k0_QsN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xBUD9d-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k0_Qst-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUD9t-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0_Qs9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xBUD99-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k0_3wN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xBUD-N-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xBUD-d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xBUD-t-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k0_Qsd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xBUD-9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xBUD_N-HEeeFbsQhSaqEMA" name="DataPacketUser">
+          <modelElement href="GameServer.uml#_klIPwN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_xCfvYN-HEeeFbsQhSaqEMA" comments="_w8YgUN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8dY0N-HEeeFbsQhSaqEMA" name="IUser" associationsIn="_w8lUoN-HEeeFbsQhSaqEMA _w_mzcN-HEeeFbsQhSaqEMA _3Gq4UN-HEeeFbsQhSaqEMA" associationsOut="_w8oX8N-HEeeFbsQhSaqEMA _w-pxMN-HEeeFbsQhSaqEMA" subclassedBy="_w8hqQN-HEeeFbsQhSaqEMA _xABqMN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_xCfvYd-HEeeFbsQhSaqEMA" position="636.0,211.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xCfvYt-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_xCfvY9-HEeeFbsQhSaqEMA" defaultValue="&quot;USER&quot;" name="BOUND_NAME" staticAttribute="true">
+      <modelElement href="GameServer.uml#_klYHYN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xCfvZN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfvZd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_xCfvZt-HEeeFbsQhSaqEMA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xCfvZ9-HEeeFbsQhSaqEMA" comments="_w8tQcN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8w60N-HEeeFbsQhSaqEMA" name="getName">
+      <modelElement href="GameServer.uml#_klYucd-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xCfvaN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfvad-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xCfvat-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klYuct-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xCfva9-HEeeFbsQhSaqEMA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xCfvbN-HEeeFbsQhSaqEMA" comments="_w80lMN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w84PkN-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_klZVgN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xCfvbd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfvbt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xCfvb9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k3vCsN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xCfvcN-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xCfvcd-HEeeFbsQhSaqEMA" comments="_w88hAN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w8_kUN-HEeeFbsQhSaqEMA" name="getChatRooms">
+      <modelElement href="GameServer.uml#_klZVgd-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_xCfvct-HEeeFbsQhSaqEMA" keyword="generic_container"/>
+      <visibility xmi:id="_xCfvc9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfvdN-HEeeFbsQhSaqEMA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xCfvdd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_klZVgt-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_xCfvdt-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xCfvd9-HEeeFbsQhSaqEMA" comments="_w9DOsN-HEeeFbsQhSaqEMA" targetConnectionVisual="_w9HgIN-HEeeFbsQhSaqEMA" name="connect">
+      <modelElement href="GameServer.uml#_k0TUMN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_xCfveN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfved-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xCfvet-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k0T7QN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xCfve9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xCfvfN-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xCfvfd-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k0T7Qd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_xCfvft-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k0T7Q9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xCfvf9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0UiUN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_xCfvgN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_xCfvgd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xCfvgt-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k0T7Qt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_xCfvg9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_xCfvhN-HEeeFbsQhSaqEMA" name="DataPacketUser">
+          <modelElement href="GameServer.uml#_klIPwN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_xGgFoN-HEeeFbsQhSaqEMA" comments="_xD5dkN-HEeeFbsQhSaqEMA" targetConnectionVisual="_xEWJgN-HEeeFbsQhSaqEMA" name="IUserCmd2ModelAdapter" subclassedBy="_xEhIoN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_klbKsN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_xGgFod-HEeeFbsQhSaqEMA" position="17.0,1205.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xGgFot-HEeeFbsQhSaqEMA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3EbcoN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3Ez3IN-HEeeFbsQhSaqEMA" text="IReceiver defines a receiver in a chat room, which corresponds to a user (More accurately, a remote user's chat room) in the remote. &#xA;Similar to IUser, IReceiver is NOT transmitted to anyone. ONLY the STUB of this Remote object is ever transmitted." item="_3E26cN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S2N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3E1FQN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3E1sUN-HEeeFbsQhSaqEMA" text="Get the UUID of this receiver.&#xA;&#x9; * The UUID value must equals the UUID value of the user, i.e. all receivers &#xA;&#x9; * belonging to the same user must have the same UUID value, which equals the UUID value&#xA;&#x9; * of this user. &#xA;&#x9; * @return the UUID of this receiver.&#xA;&#x9; * @throws RemoteException if a network error occurs." item="_3E26c9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S2d-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3E1sUd-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3E2TYN-HEeeFbsQhSaqEMA" text="Get the user stub corresponding to the IReceiver interface&#xA;&#x9; * @return a user stub&#xA;&#x9; * @throws RemoteException if a network error occurs" item="_3E26eN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k88S2t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3FRxMN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3F3nEN-HEeeFbsQhSaqEMA" text="The server receiver type in the lobby." item="_3GHesN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Fcyd-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3GD0UN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3GD0Ud-HEeeFbsQhSaqEMA" text="Constructor for LobbyReceiver&#xA;&#x9; * @param chatRoom0 the chat room object&#xA;&#x9; * @param user0 the use object&#xA;&#x9; * @param userStub the user stub&#xA;&#x9; * @param cmd2ModelAdpt0 IServerCRCmd2ModelAdapter object" item="_3GIFzN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9Fcyt-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3JBowN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3JSugN-HEeeFbsQhSaqEMA" text="Implementation of IReceiver, with more local methods" item="_3KS0EN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-IAN-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3KEKkN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3KExoN-HEeeFbsQhSaqEMA" text="Constructor for Receiver&#xA;&#x9; * @param chatRoom the related chat room &#xA;&#x9; * @param userStub the related user's stub&#xA;&#x9; * @param cmd2ModelAdpt adapter for command talking with local model" item="_3KS0S9-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-IAd-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3KF_wN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3KGm0N-HEeeFbsQhSaqEMA" text="Set the stub corresponding with this receiver object&#xA;&#x9; * @param receiverStub the corresponding stub" item="_3KS0bt-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k8-IAt-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3PUeAN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3PgrQN-HEeeFbsQhSaqEMA" text="Implementation of IReceiver, with more local methods" item="_3RMtUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9GD0t-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3PzmMN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3QvaUN-HEeeFbsQhSaqEMA" text="*" item="_3RMtXd-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9GD1N-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3Q7nkN-HEeeFbsQhSaqEMA" sourceConnectionVisual="_3RAgEN-HEeeFbsQhSaqEMA" text="Constructor for Receiver&#xA;&#x9; * @param chatRoom the related chat room &#xA;&#x9; * @param user &#xA;&#x9; * @param userStub the related user's stub&#xA;&#x9; * @param cmd2ModelAdpt adapter for command talking with local model" item="_3RMtYN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_k9GD09-HEeeFbsQhSaqEMA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_3E26cN-HEeeFbsQhSaqEMA" comments="_3EbcoN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3Ez3IN-HEeeFbsQhSaqEMA" name="IReceiver" associationsIn="_wzb_sN-HEeeFbsQhSaqEMA _3HU_oN-HEeeFbsQhSaqEMA" associationsOut="_w11MYN-HEeeFbsQhSaqEMA" subclassedBy="_3IgEUN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_3E26cd-HEeeFbsQhSaqEMA" position="2119.0,121.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3E26ct-HEeeFbsQhSaqEMA" label="+"/>
+    <operations xmi:id="_3E26c9-HEeeFbsQhSaqEMA" comments="_3E1FQN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3E1sUN-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_klVrId-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3E26dN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3E26dd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3E26dt-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k3t0lN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3E26d9-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3E26eN-HEeeFbsQhSaqEMA" comments="_3E1sUd-HEeeFbsQhSaqEMA" targetConnectionVisual="_3E2TYN-HEeeFbsQhSaqEMA" name="getUserStub">
+      <modelElement href="GameServer.uml#_klWSMN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3E26ed-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3E26et-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3E26e9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0StId-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3E26fN-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3E26fd-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k0RfAd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3E26ft-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k0SGEN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3E26f9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k0SGEd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3E26gN-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3E26gd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3E26gt-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k0RfAt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3E26g9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3E26hN-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3GHesN-HEeeFbsQhSaqEMA" comments="_3FRxMN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3F3nEN-HEeeFbsQhSaqEMA" name="LobbyReceiver" associationsOut="_3GG3oN-HEeeFbsQhSaqEMA" generalizations="_3Pmx4N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kpkD0N-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_3GIFwN-HEeeFbsQhSaqEMA" position="587.0,1207.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3GIFwd-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_3GIFwt-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt">
+      <modelElement href="GameServer.uml#_k72GoN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3GIFw9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k72God-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3GIFxN-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3GIFxd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3GIFxt-HEeeFbsQhSaqEMA" name="IServerCRCmd2ModelAdapter">
+        <modelElement href="GameServer.uml#_kpgZcN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3GIFx9-HEeeFbsQhSaqEMA" name="init">
+      <modelElement href="GameServer.uml#_kpkq4N-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3GIFyN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_kpkq4d-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3GIFyd-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kpkq4t-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3GIFyt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3GIFy9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3GIFzN-HEeeFbsQhSaqEMA" comments="_3GD0UN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3GD0Ud-HEeeFbsQhSaqEMA" name="LobbyReceiver">
+      <modelElement href="GameServer.uml#_k1-IIN-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_3GIFzd-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_3GIFzt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3GIFz9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3GIF0N-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k1-vNd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3GIF0d-HEeeFbsQhSaqEMA" name="LobbyReceiver">
+          <modelElement href="GameServer.uml#_kpkD0N-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3GIF0t-HEeeFbsQhSaqEMA" name="chatRoom0">
+        <modelElement href="GameServer.uml#_k1-IId-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3GIF09-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3GIF1N-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3GIF1d-HEeeFbsQhSaqEMA" name="user0">
+        <modelElement href="GameServer.uml#_k1-vMN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3GIF1t-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3GIF19-HEeeFbsQhSaqEMA" name="ServerUser">
+          <modelElement href="GameServer.uml#_kp9sct-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3GIF2N-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k1-vMd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3GIF2d-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3GIF2t-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3GIF29-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt0">
+        <modelElement href="GameServer.uml#_k1-vMt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3GIF3N-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3GIF3d-HEeeFbsQhSaqEMA" name="IServerCRCmd2ModelAdapter">
+          <modelElement href="GameServer.uml#_kpgZcN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3KS0EN-HEeeFbsQhSaqEMA" comments="_3JBowN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3JSugN-HEeeFbsQhSaqEMA" name="Receiver" associationsOut="_3Gq4UN-HEeeFbsQhSaqEMA _3HU_oN-HEeeFbsQhSaqEMA _3H-f4N-HEeeFbsQhSaqEMA _3JdGlN-HEeeFbsQhSaqEMA _3J5ygN-HEeeFbsQhSaqEMA _3KC8dt-HEeeFbsQhSaqEMA _3KQ-4N-HEeeFbsQhSaqEMA" generalizations="_3IgEUN-HEeeFbsQhSaqEMA" subclassedBy="_3OWNoN-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kmm2cN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_3KS0Ed-HEeeFbsQhSaqEMA" position="1744.0,288.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3KS0Et-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_3KS0E9-HEeeFbsQhSaqEMA" name="userStub">
+      <modelElement href="GameServer.uml#_k6liYt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0FN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6mJcN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Fd-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0Ft-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0F9-HEeeFbsQhSaqEMA" name="IUser">
+        <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0GN-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt">
+      <modelElement href="GameServer.uml#_k6mJcd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0Gd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6mJct-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Gt-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0G9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0HN-HEeeFbsQhSaqEMA" name="ILocalCmd2ModelAdapter">
+        <modelElement href="GameServer.uml#_kmEq8N-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0Hd-HEeeFbsQhSaqEMA" name="messageCache">
+      <modelElement href="GameServer.uml#_k6mJc9-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0Ht-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k6mwgN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0H9-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6mwgd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0IN-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0Id-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0It-HEeeFbsQhSaqEMA" name="List">
+        <modelElement href="GameServer.uml#_k01fs9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0I9-HEeeFbsQhSaqEMA" name="id">
+      <modelElement href="GameServer.uml#_k6olsN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0JN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6olsd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Jd-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0Jt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0J9-HEeeFbsQhSaqEMA" name="UUID">
+        <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0KN-HEeeFbsQhSaqEMA" name="receiverStub">
+      <modelElement href="GameServer.uml#_k6olst-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0Kd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6ols9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Kt-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0K9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0LN-HEeeFbsQhSaqEMA" name="IReceiver">
+        <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0Ld-HEeeFbsQhSaqEMA" name="room">
+      <modelElement href="GameServer.uml#_k6pMwN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0Lt-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6pMwd-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0L9-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0MN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0Md-HEeeFbsQhSaqEMA" name="IChatRoom">
+        <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3KS0Mt-HEeeFbsQhSaqEMA" defaultValue="new DataPacketAlgo&lt;String, String>(&#xA;&#x9;&#x9;&#x9;new DataPacketCRAlgoCmd&lt;ICRMessageType>() {&#xA;&#x9;&#x9;&#x9;&#x9;private static final long serialVersionUID = 1412561293137057537L;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public String apply(Class&lt;?> id, DataPacketCR&lt;ICRMessageType> host, String... params) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Object x = host.getData();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;String name = &quot;Unknown remote name &quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;name = host.getSender().getUserStub().getName();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (RemoteException e1) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e1.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cmd2ModelAdpt.appendMsg(&quot;[Algo.apply() ] Default case called. successfully process data &quot; + x,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;name);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;List&lt;DataPacketCR&lt;?>> cache = messageCache.getOrDefault(id, new LinkedList&lt;DataPacketCR&lt;?>>());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cache.add(host);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;messageCache.put(id, cache);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;host.getSender().receive(new DataPacketCR&lt;IRequestCmdType>(IRequestCmdType.class,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new RequestCmdType(id), receiverStub));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (RemoteException e) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;@Override&#xA;&#x9;&#x9;&#x9;&#x9;public void setCmd2ModelAdpt(ICRCmd2ModelAdapter cmd2ModelAdpt) {&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;})" name="algo">
+      <modelElement href="GameServer.uml#_k6pMwt-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0M9-HEeeFbsQhSaqEMA" name="Generics">
+        <modelElement href="GameServer.uml#_k6pMw9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0NN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k6pz0N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Nd-HEeeFbsQhSaqEMA" label="#"/>
+      <cardinality xmi:id="_3KS0Nt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3KS0N9-HEeeFbsQhSaqEMA" name="DataPacketAlgo">
+        <modelElement href="GameServer.uml#_k02t0d-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3KS0ON-HEeeFbsQhSaqEMA" name="getUserStub">
+      <modelElement href="GameServer.uml#_kmoEkN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0Od-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_kmoroN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0Ot-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kmpSsN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0O9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0PN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3KS0Pd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k04jBN-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3KS0Pt-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3KS0P9-HEeeFbsQhSaqEMA" name="getUUID">
+      <modelElement href="GameServer.uml#_kmp5wd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0QN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_kmqg0N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0Qd-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_kmqg0d-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Qt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0Q9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3KS0RN-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k4IEQ9-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3KS0Rd-HEeeFbsQhSaqEMA" name="UUID">
+          <modelElement href="GameServer.uml#_k0LYY9-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3KS0Rt-HEeeFbsQhSaqEMA" name="hashCode">
+      <modelElement href="GameServer.uml#_kmrH4N-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KS0R9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0SN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3KS0Sd-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_kmrH4d-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3KS0St-HEeeFbsQhSaqEMA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3KS0S9-HEeeFbsQhSaqEMA" comments="_3KEKkN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3KExoN-HEeeFbsQhSaqEMA" name="Receiver">
+      <modelElement href="GameServer.uml#_k03U4t-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_3KS0TN-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_3KS0Td-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0Tt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3KS0T9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k0379d-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3KS0UN-HEeeFbsQhSaqEMA" name="Receiver">
+          <modelElement href="GameServer.uml#_kmm2cN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3KS0Ud-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k0378N-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0Ut-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0U9-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3KS0VN-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k0378d-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0Vd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0Vt-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3KS0V9-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt">
+        <modelElement href="GameServer.uml#_k0378t-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0WN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0Wd-HEeeFbsQhSaqEMA" name="ILocalCmd2ModelAdapter">
+          <modelElement href="GameServer.uml#_kmEq8N-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3KS0Wt-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k0379t-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0W9-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k037-N-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0XN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k04jAN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0Xd-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k04jAt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Xt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0X9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3KS0YN-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k03799-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0Yd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0Yt-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3KS0Y9-HEeeFbsQhSaqEMA" name="sendPacket">
+      <modelElement href="GameServer.uml#_k05KEN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3KS0ZN-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k05KE9-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3KS0Zd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k05KFN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3KS0Zt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0Z9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3KS0aN-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k05KEd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0ad-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0at-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3KS0a9-HEeeFbsQhSaqEMA" name="room">
+        <modelElement href="GameServer.uml#_k05KEt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0bN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0bd-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3KS0bt-HEeeFbsQhSaqEMA" comments="_3KF_wN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3KGm0N-HEeeFbsQhSaqEMA" name="setReceiverStub">
+      <modelElement href="GameServer.uml#_k05xIN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KS0b9-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0cN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3KS0cd-HEeeFbsQhSaqEMA" name="receiverStub">
+        <modelElement href="GameServer.uml#_k05xId-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0ct-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0c9-HEeeFbsQhSaqEMA" name="IReceiver">
+          <modelElement href="GameServer.uml#_klVrIN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3KS0dN-HEeeFbsQhSaqEMA" name="equals">
+      <modelElement href="GameServer.uml#_k4IETN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3KS0dd-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3KS0dt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3KS0d9-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k4IrVd-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3KS0eN-HEeeFbsQhSaqEMA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3KS0ed-HEeeFbsQhSaqEMA" name="other">
+        <modelElement href="GameServer.uml#_k4IrUt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3KS0et-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3KS0e9-HEeeFbsQhSaqEMA" name="Object">
+          <modelElement href="GameServer.uml#_k3w34d-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3RMtUN-HEeeFbsQhSaqEMA" comments="_3PUeAN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3PgrQN-HEeeFbsQhSaqEMA" name="ServerReceiver" associationsOut="_3LbcgN-HEeeFbsQhSaqEMA _3PrqY9-HEeeFbsQhSaqEMA" generalizations="_3OWNoN-HEeeFbsQhSaqEMA" subclassedBy="_3Pmx4N-HEeeFbsQhSaqEMA">
+    <modelElement href="GameServer.uml#_kp1woN-HEeeFbsQhSaqEMA"/>
+    <visualProperties xmi:id="_3RMtUd-HEeeFbsQhSaqEMA" position="1046.0,948.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3RMtUt-HEeeFbsQhSaqEMA" label="+"/>
+    <attributes xmi:id="_3RMtU9-HEeeFbsQhSaqEMA" name="user">
+      <modelElement href="GameServer.uml#_k75J8t-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3RMtVN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k75xAN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3RMtVd-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3RMtVt-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3RMtV9-HEeeFbsQhSaqEMA" name="ServerUser">
+        <modelElement href="GameServer.uml#_kp9sct-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3RMtWN-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt">
+      <modelElement href="GameServer.uml#_k75xAd-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3RMtWd-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k75xAt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3RMtWt-HEeeFbsQhSaqEMA" label="-"/>
+      <cardinality xmi:id="_3RMtW9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <type xmi:id="_3RMtXN-HEeeFbsQhSaqEMA" name="IServerCRCmd2ModelAdapter">
+        <modelElement href="GameServer.uml#_kpgZcN-HEeeFbsQhSaqEMA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3RMtXd-HEeeFbsQhSaqEMA" comments="_3PzmMN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3QvaUN-HEeeFbsQhSaqEMA" name="init">
+      <modelElement href="GameServer.uml#_kp2XsN-HEeeFbsQhSaqEMA"/>
+      <visibility xmi:id="_3RMtXt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3RMtX9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3RMtYN-HEeeFbsQhSaqEMA" comments="_3Q7nkN-HEeeFbsQhSaqEMA" targetConnectionVisual="_3RAgEN-HEeeFbsQhSaqEMA" name="ServerReceiver">
+      <modelElement href="GameServer.uml#_k2SRMd-HEeeFbsQhSaqEMA"/>
+      <keywords xmi:id="_3RMtYd-HEeeFbsQhSaqEMA" keyword="create"/>
+      <visibility xmi:id="_3RMtYt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3RMtY9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3RMtZN-HEeeFbsQhSaqEMA">
+        <modelElement href="GameServer.uml#_k2S4Rt-HEeeFbsQhSaqEMA"/>
+        <type xmi:id="_3RMtZd-HEeeFbsQhSaqEMA" name="ServerReceiver">
+          <modelElement href="GameServer.uml#_kp1woN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3RMtZt-HEeeFbsQhSaqEMA" name="chatRoom">
+        <modelElement href="GameServer.uml#_k2S4QN-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3RMtZ9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3RMtaN-HEeeFbsQhSaqEMA" name="IChatRoom">
+          <modelElement href="GameServer.uml#_klNIQN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3RMtad-HEeeFbsQhSaqEMA" name="user">
+        <modelElement href="GameServer.uml#_k2S4Qd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3RMtat-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3RMta9-HEeeFbsQhSaqEMA" name="ServerUser">
+          <modelElement href="GameServer.uml#_kp9sct-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3RMtbN-HEeeFbsQhSaqEMA" name="userStub">
+        <modelElement href="GameServer.uml#_k2S4Qt-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3RMtbd-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3RMtbt-HEeeFbsQhSaqEMA" name="IUser">
+          <modelElement href="GameServer.uml#_klXgUN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3RMtb9-HEeeFbsQhSaqEMA" name="cmd2ModelAdpt">
+        <modelElement href="GameServer.uml#_k2S4Q9-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3RMtcN-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3RMtcd-HEeeFbsQhSaqEMA" name="IServerCRCmd2ModelAdapter">
+          <modelElement href="GameServer.uml#_kpgZcN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3RMtct-HEeeFbsQhSaqEMA" name="receive">
+      <modelElement href="GameServer.uml#_k2TfUN-HEeeFbsQhSaqEMA"/>
+      <stereotypes xmi:id="_3RMtc9-HEeeFbsQhSaqEMA" name="TypeParameterDeclaration">
+        <modelElement href="GameServer.uml#_k2TfUt-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3RMtdN-HEeeFbsQhSaqEMA" name="LegacyStyledElement">
+        <modelElement href="GameServer.uml#_k2UGYN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3RMtdd-HEeeFbsQhSaqEMA" name="Annotations">
+        <modelElement href="GameServer.uml#_k2UtcN-HEeeFbsQhSaqEMA"/>
+      </stereotypes>
+      <visibility xmi:id="_3RMtdt-HEeeFbsQhSaqEMA" label="+"/>
+      <cardinality xmi:id="_3RMtd9-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3RMteN-HEeeFbsQhSaqEMA" name="data">
+        <modelElement href="GameServer.uml#_k2TfUd-HEeeFbsQhSaqEMA"/>
+        <cardinality xmi:id="_3RMted-HEeeFbsQhSaqEMA" label="1" max="1" min="1"/>
+        <type xmi:id="_3RMtet-HEeeFbsQhSaqEMA" name="DataPacketCR">
+          <modelElement href="GameServer.uml#_klElYN-HEeeFbsQhSaqEMA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
