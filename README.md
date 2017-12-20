@@ -77,4 +77,11 @@ A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
 	Click the Cross to exit the whole program, note that your exiting the game will not affect other players.
 	
 	## Game Snapshots
+	### Game in process:
+	!(sengoku-game/SengokuGameSnapShot/SengokuGameSnapShot.png)
+	
+	### Game ends:
+	
+	
+	
 	
