@@ -3,6 +3,13 @@ By lp28@rice.edu, yt30@rice.edu
 
 This is a real-time-strategic game based on NASA WorldWIndJava (a geographical library).
 
+## Game Snapshots
+### Game in process:
+![process](/SengokuGameSnapShot/SengokuGameSnapShot.png)
+	
+### Game ends:
+![ending](/SengokuGameSnapShot/SengokuGameWinningSnapShot.png)
+
 ## Technical overview:
 In this project we used:
 * MVC pattern
@@ -61,10 +68,10 @@ In this project we used:
 	  * At the beginning of the game, each player (war lord) is assigned to a random city with 500 soldiers. Other cities are occupied by creeps (controlled by computer).
 	  * war lords can take ACTION with their armed forces! 
 	  * Each action includes: 
-			* 1. selecting a base city -- in which you MUST have armed forces)
-			* 2. selecting a target city -- which MUST to be within your attacking/moving range. In the game, the range is 1000 km and is marked with a red circle on the map.
-			* 3. selecting the number of soldiers to participate in the action.
-			* 4. confirm your action.
+	    * 1. selecting a base city -- in which you MUST have armed forces)
+	    * 2. selecting a target city -- which MUST to be within your attacking/moving range. In the game, the range is 1000 km and is marked with a red circle on the map.
+	    * 3. selecting the number of soldiers to participate in the action.
+	    * 4. confirm your action.
 	* If the target city belongs to your own Kingdom, then your are MIGRATING your army from base city to target city.
 	* else if the target city belongs to the enemy (another team or creep), you are Attacking the target city.
 	* Battles occurs when you attack the city. You may lose all your dispatched soldiers if you fail the battle, otherwise you will conquer the city.
@@ -88,12 +95,7 @@ In this project we used:
 	### Exit the game
 	Click the Cross to exit the whole program, note that your exiting the game will not affect other players.
 	
-	## Game Snapshots
-	### Game in process:
-	![process](/SengokuGameSnapShot/SengokuGameSnapShot.png)
-	
-	### Game ends:
-	![ending](/SengokuGameSnapShot/SengokuGameWinningSnapShot.png)
+
 	
 	
 	
