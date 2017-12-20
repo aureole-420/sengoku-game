@@ -78,9 +78,10 @@ A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
 	
 	## Game Snapshots
 	### Game in process:
-	![fefe](/SengokuGameSnapShot/SengokuGameSnapShot.png)
+	![process](/SengokuGameSnapShot/SengokuGameSnapShot.png)
 	
 	### Game ends:
+	![ending](sengoku-game/SengokuGameSnapShot/SengokuGameWinningSnapShot.png)
 	
 	
 	
