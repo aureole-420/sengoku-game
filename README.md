@@ -1,5 +1,5 @@
 # sengoku-game (based on NASA World Wind Java)
-By lp28@rice.edu, yt30@rice.edu
+By Yuhui Tong (me) colloborated with Lyu Pan (lp28@rice.edu)
 
 This is a real-time-strategic game based on NASA WorldWIndJava (a geographical library).
 
