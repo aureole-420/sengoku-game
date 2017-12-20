@@ -1,8 +1,20 @@
 # sengoku-game (based on NASA World Wind Java)
-A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
+By lp28@rice.edu, yt30@rice.edu
 
+This is a real-time-strategic game based on NASA WorldWIndJava (a geographical library).
 
-## Overview: 
+## Technical overview:
+In this project we used:
+* MVC pattern
+* Extended visitor pattern
+* Command dispatching pattern
+* Mixed key dictionary
+* Java RMI
+* Java Multithreading
+* Asychronous message passing
+* Client/Server architecture
+* NASA World Wind Java as geographical model
+
 ### System Architecture
 * Using the common API as the message passing infrastructure, we implemented our game following the API guidelines and communication protocols.
 * Our game are based on the server-client architecture, which are implemented as a set of customized commands in the server side.
@@ -11,7 +23,7 @@ A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
 * The communication within the team (intra-team communication) are done using ICRCmd2ModelAdaper.sendToChatRoom() method, i.e. a non-routing way.
 * The communication between different teams (inter-team communication) are done by sending the message back to the server.
 
-## Start the program
+## Game Instruction
 1. Start the client
  1.1 Run "sengoku-game/GameClient.launch" to start the client;
  1.2 enter desired username; click "Start" button to initiate the client.
@@ -45,10 +57,10 @@ A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
 	* This is a real-time-strategy (RTS) game.
 	* Each team is a Kingdom consisting of several war lords (team members). 
 	* While belonging to the same country, war lords are independent from each other in making their own game decision to optimize the Kingdom’s overall population growth and land conquering. 
-		* There dozens of cities in the map, NYC, LA, Houston, etc.
-		* At the beginning of the game, each player (war lord) is assigned to a random city with 500 soldiers. Other cities are occupied by creeps (controlled by computer).
-		* war lords can take ACTION with their armed forces! 
-		* Each action includes: 
+	  * There dozens of cities in the map, NYC, LA, Houston, etc.
+	  * At the beginning of the game, each player (war lord) is assigned to a random city with 500 soldiers. Other cities are occupied by creeps (controlled by computer).
+	  * war lords can take ACTION with their armed forces! 
+	  * Each action includes: 
 			* 1. selecting a base city -- in which you MUST have armed forces)
 			* 2. selecting a target city -- which MUST to be within your attacking/moving range. In the game, the range is 1000 km and is marked with a red circle on the map.
 			* 3. selecting the number of soldiers to participate in the action.
@@ -81,7 +93,8 @@ A real-time-strategic game based on NASA WorldWIndJava (a geographical library)
 	![process](/SengokuGameSnapShot/SengokuGameSnapShot.png)
 	
 	### Game ends:
-	![ending](sengoku-game/SengokuGameSnapShot/SengokuGameWinningSnapShot.png)
+	![ending](/SengokuGameSnapShot/SengokuGameWinningSnapShot.png)
+	
 	
 	
 	
